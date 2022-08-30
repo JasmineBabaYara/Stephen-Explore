@@ -74,7 +74,7 @@ export default function Home({ navigation }) {
           style={{
             backgroundColor: "#fff",
             marginTop: 40,
-            padding: 22,
+            padding: 20,
             marginVertical: -18,
             justifyContent: "center",
             width: "100%",
@@ -91,7 +91,7 @@ export default function Home({ navigation }) {
               marginTop: -20,
             }}
           >
-            <Text style={{ fontSize: 20, fontWeight: "500" }}>
+            <Text style={{ fontSize: 15, fontWeight: "500" }}>
               {item.name1}
             </Text>
             <View
@@ -101,16 +101,16 @@ export default function Home({ navigation }) {
                 alignItems: "center",
               }}
             >
-              <Text style={{ fontSize: 16, fontWeight: "bold", color: "red" }}>
+              <Text style={{ fontSize: 11, fontWeight: "bold", color: "red" }}>
                 {item.time}
               </Text>
-              <Text style={{ fontSize: 17, color: "grey" }}>{item.date}</Text>
+              <Text style={{ fontSize: 12, color: "grey" }}>{item.date}</Text>
             </View>
-            <Text style={{ fontSize: 20, fontWeight: "500" }}>
+            <Text style={{ fontSize: 15, fontWeight: "500" }}>
               {item.name2}
             </Text>
           </View>
-          <Text style={{ fontSize: 18, alignSelf: "center", marginTop: 10 }}>
+          <Text style={{ fontSize: 13, alignSelf: "center" }}>
             {item.location}
           </Text>
         </TouchableOpacity>
@@ -155,7 +155,7 @@ export default function Home({ navigation }) {
           </TouchableOpacity>
           <Text
             style={{
-              fontSize: 25,
+              fontSize: 22,
               fontWeight: "bold",
             }}
           >
@@ -186,7 +186,7 @@ export default function Home({ navigation }) {
             }}
             onPress={() => navigation.navigate("Information")}
           >
-            <Text style={{ color: "blue", fontSize: 20, fontWeight: "600" }}>
+            <Text style={{ color: "blue", fontSize: 18, fontWeight: "600" }}>
               Information
             </Text>
           </TouchableOpacity>

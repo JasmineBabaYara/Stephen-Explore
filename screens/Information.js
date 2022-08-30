@@ -17,7 +17,7 @@ export default function Information() {
       <View style={styles.section}>
         <Text style={styles.sectiontxt}>If you are new / </Text>
         <TouchableOpacity>
-          <Text style={{ fontSize: 22, fontWeight: "500" }}>Create New</Text>
+          <Text style={{ fontSize: 17, fontWeight: "500" }}>Create New</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.agencyinput}>
@@ -27,9 +27,9 @@ export default function Information() {
           style={{ outline: "none" }}
         />
         <TouchableOpacity
-          style={{ backgroundColor: "#fff", padding: 10, borderRadius: 25 }}
+          style={{ backgroundColor: "#fff", padding: 6, borderRadius: 25 }}
         >
-          <Entypo name="pin" size={20} color="black" />
+          <Entypo name="pin" size={16} color="black" />
         </TouchableOpacity>
       </View>
       <View style={styles.passwordinput}>
@@ -42,7 +42,7 @@ export default function Information() {
       <View style={styles.section}>
         <Text style={styles.sectiontxt}>Forgot Passcode?/ </Text>
         <TouchableOpacity>
-          <Text style={{ fontSize: 22, fontWeight: "500" }}>Reset</Text>
+          <Text style={{ fontSize: 17, fontWeight: "500" }}>Reset</Text>
         </TouchableOpacity>
       </View>
       <TouchableOpacity style={styles.loginbtn}>
@@ -83,12 +83,12 @@ const styles = StyleSheet.create({
 
   sectiontxt: {
     color: "grey",
-    fontSize: 20,
+    fontSize: 15,
   },
 
   agencyinput: {
     width: "80%",
-    padding: 20,
+    padding: 15,
     backgroundColor: "navajowhite",
     marginTop: 50,
     alignSelf: "center",
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
 
   passwordinput: {
     width: "80%",
-    padding: 30,
+    padding: 16,
     backgroundColor: "lightgrey",
     marginTop: 20,
     alignSelf: "center",
@@ -108,9 +108,9 @@ const styles = StyleSheet.create({
 
   loginbtn: {
     width: "80%",
-    padding: 20,
+    padding: 15,
     backgroundColor: "firebrick",
-    marginTop: "23%",
+    marginTop: 30,
     alignSelf: "center",
     borderRadius: 10,
     alignItems: "center",
@@ -119,6 +119,6 @@ const styles = StyleSheet.create({
 
   logintxt: {
     color: "#fff",
-    fontSize: 30,
+    fontSize: 20,
   },
 });
